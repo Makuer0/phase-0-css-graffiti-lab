@@ -1,1 +1,24 @@
 /* write your override styles here */
+#wall .tag-1 {
+display: none;
+}
+div#wall #tag-2 {
+display: none;
+}
+div#wall #tag-2 + #tag-3{
+display: none;
+}
+div#wall .parent #tag-4 {
+display:none;
+}
+#wall div:nth-of-type(5){
+display:none;
+}
+
+#wall div:nth-of-type(6){
+display:none;
+}
+
+div#wall div:nth-of-type(6) + div:last-child div#tag-6 {
+display:none;
+}
